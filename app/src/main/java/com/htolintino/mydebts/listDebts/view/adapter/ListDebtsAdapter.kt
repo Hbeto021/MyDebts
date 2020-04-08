@@ -48,10 +48,5 @@ class ListDebtsAdapter(private val onItemClick: (debt: Debt) -> Unit):
                 }
             }
         }
-
-        fun onClick() {
-            this.itemView
-        }
-
     }
 }
