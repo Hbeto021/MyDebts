@@ -1,6 +1,6 @@
 # MyDebts
 
-This is my personal project on Android to orgazinate my monthly debts. I will also use it for studies and implementations 
+This is my personal project on Android to organize my monthly debts. I will also use it for studies and implementations 
 of new technologies.
 
 # Libraries Used
