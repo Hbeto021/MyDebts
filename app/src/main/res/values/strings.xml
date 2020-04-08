@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyDebts</string>
+
+    <string name="manage_debt_error_message">Please enter all fields!</string>
+    <string name="manage_debt_description_hint">Description</string>
+    <string name="menage_debt_value_hint">Value</string>
+    <string name="menage_debt_month_hint">Month</string>
+    <string name="menage_debt_button_save">Save</string>
+    <string name="menage_debt_button_cancel">Cancel</string>
+
+</resources>
