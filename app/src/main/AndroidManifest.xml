@@ -10,8 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".manageDebt.view.activity.ManageDebtActivity"/>
-        <activity android:name=".listDebts.view.activity.ListDebtsActivity">
+        <activity android:name="com.htolintino.mydebts.features.manageDebt.view.activity.ManageDebtActivity"/>
+        <activity android:name="com.htolintino.mydebts.features.listDebts.view.activity.ListDebtsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

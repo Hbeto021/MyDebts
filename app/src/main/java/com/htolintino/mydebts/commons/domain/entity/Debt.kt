@@ -13,4 +13,6 @@ data class Debt(
     var id: Int = 0,
     var description: String,
     var value: String,
-    var month: String): Parcelable
+    var month: String,
+    var year: String,
+    var dueDate: String): Parcelable

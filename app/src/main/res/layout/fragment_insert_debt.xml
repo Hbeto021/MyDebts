@@ -8,14 +8,14 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/inputEditDebtDescription"
+                android:id="@+id/inputAddDebtDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -28,10 +28,10 @@
                 android:maxLines="1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"/>
 
             <EditText
-                android:id="@+id/inputEditDebtValue"
+                android:id="@+id/inputAddDebtValue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -44,10 +44,10 @@
                 android:maxLength="14"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/inputEditDebtDescription" />
+                app:layout_constraintTop_toBottomOf="@+id/inputAddDebtDescription"/>
 
             <TextView
-                android:id="@+id/inputEditDebtMonth"
+                android:id="@+id/inputAddDebtMonth"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -59,7 +59,7 @@
                 android:textSize="17sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/inputEditDebtValue" />
+                app:layout_constraintTop_toBottomOf="@+id/inputAddDebtValue" />
 
             <View
                 android:id="@+id/inputMonthLine"
@@ -71,10 +71,10 @@
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
                 android:background="@android:color/darker_gray"
-                app:layout_constraintTop_toBottomOf="@id/inputEditDebtMonth"/>
+                app:layout_constraintTop_toBottomOf="@id/inputAddDebtMonth"/>
 
             <Button
-                android:id="@+id/buttonEditSaveDebt"
+                android:id="@+id/buttonAddSaveDebt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -89,7 +89,7 @@
                 app:layout_constraintTop_toBottomOf="@id/inputMonthLine" />
 
             <Button
-                android:id="@+id/buttonEditCancelDebt"
+                android:id="@+id/buttonAddCancelDebt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -101,11 +101,10 @@
                 style="@style/AppButtonTheme"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/buttonEditSaveDebt" />
+                app:layout_constraintTop_toBottomOf="@id/buttonAddSaveDebt" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

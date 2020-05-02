@@ -3,7 +3,7 @@ package com.htolintino.mydebts.commons.router
 import android.content.Context
 import android.content.Intent
 import com.htolintino.mydebts.commons.domain.entity.Debt
-import com.htolintino.mydebts.manageDebt.view.activity.ManageDebtActivity
+import com.htolintino.mydebts.features.manageDebt.view.activity.ManageDebtActivity
 
 class AppRouter {
 

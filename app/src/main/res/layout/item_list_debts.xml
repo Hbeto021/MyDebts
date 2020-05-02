@@ -14,8 +14,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="12dp"
-        android:layout_marginBottom="12dp">
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
 
         <TextView
             android:id="@+id/textViewItemListDebtsDescription"
@@ -31,29 +31,18 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textViewItemListDebtsCurrency"
+            android:id="@+id/textViewItemListDebtsValue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="4dp"
-            android:text="R$"
+            tools:text="R$ 250,00"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="15sp"
             android:textStyle="bold"
-            android:textSize="14sp"
-            android:textColor="@android:color/holo_green_dark"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewItemListDebtsDescription" />
-
-        <TextView
-            android:id="@+id/textViewItemListDebtsValue"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="2dp"
-            android:layout_marginLeft="2dp"
-            tools:text="250,00"
-            android:textColor="@android:color/holo_green_dark"
-            app:layout_constraintStart_toEndOf="@+id/textViewItemListDebtsCurrency"
-            app:layout_constraintTop_toTopOf="@+id/textViewItemListDebtsCurrency" />
+            app:layout_constraintTop_toBottomOf="@id/textViewItemListDebtsDescription" />
 
         <TextView
             android:id="@+id/textViewItemListDebtsMonth"
@@ -61,11 +50,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="6dp"
+            android:layout_marginTop="4dp"
             tools:text="09/2020"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewItemListDebtsCurrency" />
+            app:layout_constraintTop_toBottomOf="@id/textViewItemListDebtsValue" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
